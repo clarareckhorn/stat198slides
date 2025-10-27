@@ -20,4 +20,5 @@ This is a sample deck for the Stat 198 DataViz DeCal course. The features includ
 
 ## Example
 
-Here is the source code for a minimal sample document: [template.qmd](template.qmd).
+Here is the source code for a minimal sample document: [template.qmd](template.qmd)..
+
