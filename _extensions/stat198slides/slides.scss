@@ -18,11 +18,11 @@ $presentation-font-size-root: 46px;
 }
 
 $red: #bf2642;
-$orange: #f2a03d;
-$green: #02733e;
-$purple: #73245e;
+$orange: #1b385a;
+$green: #d9f6a4;
+$purple: #bbc1f8;
 $dark-purple: #39122f;
-$blue: #00817c;
+$blue: #6e92d8ff;
 $beige: #f8f5f0;
 $dark-beige: #9f8e71;
 $light-orange: lighten($orange, 60%);
@@ -221,7 +221,7 @@ div.meta-el {
 
 #title-slide h1 {
   font-family: 'Avenir', sans-serif;
-  color: $body-color;
+  color: $blue;
   font-weight: 400;
 }
 
