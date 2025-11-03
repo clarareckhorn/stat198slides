@@ -78,7 +78,7 @@ Columns are great for mixing code, plots, and text.\
 - Helps structure visual walkthroughs\
 :::
 
-::: column
+::: {.column .fragment}
 Example plot
 :::
 :::
