@@ -1,9 +1,10 @@
 ---
 title: Sample Class
-format: dataviz-decal-revealjs
+subtitle: Deck Showing Features
+format: stat198slides-revealjs
 ---
 
-## Introduction
+# Introduction
 
 This is a sample deck for DataViz DeCal Slides. The features include:
 
@@ -18,7 +19,17 @@ This is a sample deck for DataViz DeCal Slides. The features include:
    
    on a new line.
 
-## Example poll
+
+## Agenda
+
+- Introduction  
+- Example Poll  
+- Countdown  
+- Code Example  
+- Two-Column Layout  
+- Wrap-up  
+
+# Example poll
 
 You can provide set up for the code as if it is a normal slide.
 
@@ -31,3 +42,53 @@ C. Blue
 :::
 
 {{< countdown "01:30" >}}
+
+
+## Code Example
+
+Here’s an example of code and output using **ggplot2** in R.
+
+```{r}
+#| output-location: column-fragment
+library(ggplot2)
+
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  theme_minimal() +
+  labs(
+    title = "Miles per Gallon vs. Weight",
+    color = "Cylinders"
+  )
+```
+
+## Two Columns {.smaller}
+
+::: columns
+::: column
+
+Explanation
+
+Columns are great for mixing code, plots, and text.\
+
+- Left and right content\
+
+- Works well for comparisons\
+
+- Helps structure visual walkthroughs\
+:::
+
+::: column
+Example plot
+:::
+:::
+
+# Wrap-Up
+
+### Quarto slides make teaching reproducible
+
+::: poll adds interactivity
+
+{{< countdown >}} adds time control
+
+YAML controls defaults (logos, themes, layout)
